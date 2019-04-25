@@ -36,7 +36,8 @@ target = data['default.payment.next.month'].values
 columns = data.columns.tolist()
 columns.remove('default.payment.next.month')
 features = data[columns].values
-print(features)
+# print(features)
+
 # 30% 作为测试集，其余作为训练集
 train_x, test_x, train_y, test_y = train_test_split(features, target, test_size=0.30, stratify=target, random_state=1)
 
