@@ -104,3 +104,4 @@ venv.bak/
 .mypy_cache/
 .idea/
 tasks/creditcard.csv
+.DS_Store
