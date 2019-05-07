@@ -1,13 +1,11 @@
 # conding:utf-8
-from statsmodels.tsa.arima_model import ARMA
-import pandas as pd
-import matplotlib.pyplot as plt
-import statsmodels.api as sm
-from statsmodels.graphics.api import qqplot
-import numpy as np
 import warnings
-from itertools import product
 from datetime import datetime
+from itertools import product
+
+import matplotlib.pyplot as plt
+import pandas as pd
+from statsmodels.tsa.arima_model import ARMA
 
 warnings.filterwarnings('ignore')
 
